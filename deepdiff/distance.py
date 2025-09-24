@@ -268,7 +268,7 @@ def numpy_apply_log_keep_sign(array, offset=MATH_LOG_OFFSET):
     return signed_log_values
 
 
-def logarithmic_similarity(a: NumberType, b: NumberType, threshold: float=0.1) -> float:
+def logarithmic_similarity(a: NumberType, b: NumberType, threshold: float=0.1) -> bool:
     """
     A threshold of 0.1 translates to about 10.5% difference.
     A threshold of 0.5 translates to about 65% difference.
