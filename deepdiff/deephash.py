@@ -2,7 +2,7 @@
 import logging
 import datetime
 import uuid
-from typing import Union, Optional, Any, List, TYPE_CHECKING, Dict, Tuple, Set, Callable, Iterator, Generator, TypeVar, Protocol
+from typing import Union, Optional, Any, List, TYPE_CHECKING, Dict, Tuple, Set, Callable, Generator
 from collections.abc import Iterable, MutableMapping
 from collections import defaultdict
 from hashlib import sha1, sha256
@@ -20,8 +20,6 @@ from deepdiff.base import Base
 
 if TYPE_CHECKING:
     from pytz.tzinfo import BaseTzInfo
-    import pandas as pd
-    import polars as pl
     import numpy as np
 
 # Type aliases for better readability
