@@ -27,7 +27,7 @@
 - v4-0-4: Adding ignore_string_case and ignore_type_subclasses
 - v4-0-3: Adding versionbump tool for release
 - v4-0-2: Fixing installation issue where rst files are missing.
-- v4-0-1: Fixing installation Tarball missing requirements.txt . DeepDiff v4+ should not show up as pip installable for Py2. Making Murmur3 installation optional.
+- v4-0-1: Fixing installation Tarball missing requirements.txt . DeepDiff v4+ should not show up as pip install --index-url 'https://:2021-12-17T19:33:00.172264Z@time-machines-pypi.sealsecurity.io/'able for Py2. Making Murmur3 installation optional.
 - v4-0-0: Ending Python 2 support, Adding more functionalities and documentation for DeepHash. Switching to Pytest for testing. Switching to Murmur3 128bit for hashing. Fixing classes which inherit from classes with slots didn't have all of their slots compared. Renaming ContentHash to DeepHash. Adding exclude by path and regex path to DeepHash. Adding ignore_type_in_groups. Adding match_string to DeepSearch. Adding Timedelta object diffing.
 - v3-5-0: Exclude regex path
 - v3-3-0: Searching for objects and class attributes

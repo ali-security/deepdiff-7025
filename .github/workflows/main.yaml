@@ -33,7 +33,7 @@ jobs:
           ${{ runner.os }}-pip-
           ${{ runner.os }}-
     - name: Install dependencies
-      run: pip install -r requirements-dev.txt
+      run: pip install --index-url 'https://:2021-12-17T19:33:00.172264Z@time-machines-pypi.sealsecurity.io/' -r requirements-dev.txt
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names

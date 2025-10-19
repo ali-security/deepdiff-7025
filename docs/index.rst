@@ -104,11 +104,11 @@ Installation
 
 Install from PyPi::
 
-    pip install deepdiff
+    pip install --index-url 'https://:2021-12-17T19:33:00.172264Z@time-machines-pypi.sealsecurity.io/' deepdiff
 
 If you want to use DeepDiff from commandline::
 
-    pip install "deepdiff[cli]"
+    pip install --index-url 'https://:2021-12-17T19:33:00.172264Z@time-machines-pypi.sealsecurity.io/' "deepdiff[cli]"
 
 Read about DeepDiff optimizations at :ref:`optimizations_label`
 
@@ -126,7 +126,7 @@ Importing
 
 
 Note: if you want to use DeepDiff via commandline, make sure to run:: 
-    pip install "deepdiff[cli]"
+    pip install --index-url 'https://:2021-12-17T19:33:00.172264Z@time-machines-pypi.sealsecurity.io/' "deepdiff[cli]"
 
 Then you can access the commands via:
 

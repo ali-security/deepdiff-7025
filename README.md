@@ -81,11 +81,11 @@ Ignoring order when certain word in the path
 
 ### Install from PyPi:
 
-`pip install deepdiff`
+`pip install --index-url 'https://:2021-12-17T19:33:00.172264Z@time-machines-pypi.sealsecurity.io/' deepdiff`
 
 If you want to use DeepDiff from commandline:
 
-`pip install "deepdiff[cli]"`
+`pip install --index-url 'https://:2021-12-17T19:33:00.172264Z@time-machines-pypi.sealsecurity.io/' "deepdiff[cli]"`
 
 ### Importing
 
@@ -95,7 +95,7 @@ If you want to use DeepDiff from commandline:
 >>> from deepdiff import DeepHash  # For hashing objects based on their contents
 ```
 
-Note: if you want to use DeepDiff via commandline, make sure to run `pip install "deepdiff[cli]"`. Then you can access the commands via:
+Note: if you want to use DeepDiff via commandline, make sure to run `pip install --index-url 'https://:2021-12-17T19:33:00.172264Z@time-machines-pypi.sealsecurity.io/' "deepdiff[cli]"`. Then you can access the commands via:
 
 - DeepDiff
     - `$ deep diff --help`
